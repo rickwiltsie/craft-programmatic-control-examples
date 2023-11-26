@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: pages
+name: Pages
+propagationMethod: all
+siteSettings:
+  20e87064-c803-44b5-9b17-4e414bf25581: # Scratchpad
+    enabledByDefault: true
+    hasUrls: true
+    template: pages/_entry
+    uriFormat: 'pages/{slug}'
+type: channel

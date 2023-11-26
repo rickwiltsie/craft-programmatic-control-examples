@@ -1,0 +1,31 @@
+columnSuffix: bkrvzgib
+contentColumnType: text
+fieldGroup: b59f69d9-bcca-4d1d-8a54-4a840e3ee97c # Common
+handle: pageLink
+instructions: null
+name: 'Page Link'
+searchable: false
+settings:
+  allowCustomText: false
+  allowTarget: false
+  defaultText: null
+  selectLinkText: ''
+  types:
+    __assoc__:
+      -
+        - presseddigital\linkit\models\Url
+        -
+          __assoc__:
+            -
+              - enabled
+              - 1
+      -
+        - presseddigital\linkit\models\Entry
+        -
+          __assoc__:
+            -
+              - enabled
+              - 1
+translationKeyFormat: null
+translationMethod: none
+type: presseddigital\linkit\fields\LinkitField

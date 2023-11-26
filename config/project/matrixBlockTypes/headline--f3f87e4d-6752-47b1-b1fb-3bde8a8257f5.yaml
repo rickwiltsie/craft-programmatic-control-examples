@@ -1,0 +1,145 @@
+field: 46458d94-5e9b-449e-b35f-86dbe936e8ea # Page Content
+fieldLayouts:
+  48762871-d073-40cc-8f8d-427b3abb3b82:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 8d4291d2-d5a9-41ef-a529-15576af702dc # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6c683d88-d05c-4c67-a3a6-0b97b3afa298
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 69de7e1f-792a-4154-9f92-9350c7e4446f # Details
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e05e20af-3340-4950-8ad1-3d10fd159162
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 86dd28c2-906d-4e40-97cb-1adb6e4a5a9f # Background Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dcb7de3e-7a05-4f2c-bac7-9dd07960af77
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 65aef229-fcf7-4a80-b79f-1943750b50bc
+        userCondition: null
+fields:
+  8d4291d2-d5a9-41ef-a529-15576af702dc: # Heading
+    columnSuffix: zumaijny
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  69de7e1f-792a-4154-9f92-9350c7e4446f: # Details
+    columnSuffix: ahaptzsw
+    contentColumnType: text
+    fieldGroup: null
+    handle: details
+    instructions: null
+    name: Details
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  86dd28c2-906d-4e40-97cb-1adb6e4a5a9f: # Background Color
+    columnSuffix: enwajifj
+    contentColumnType: string(5)
+    fieldGroup: null
+    handle: backgroundColor
+    instructions: 'This color will cover the full background of the block.'
+    name: 'Background Color'
+    searchable: false
+    settings:
+      columnType: null
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Red
+            -
+              - value
+              - red
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Green
+            -
+              - value
+              - green
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Blue
+            -
+              - value
+              - blue
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+handle: headline
+name: Headline
+sortOrder: 3

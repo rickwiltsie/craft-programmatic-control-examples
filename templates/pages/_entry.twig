@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        p a { color: blue !important; text-decoration: underline !important; }
+        sup { color: red !important; font-weight: bold !important; }
+        h1, h2, p { margin-bottom: 20px !important; }
+    </style>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+{% if craft.app.request.getParam('v') == 1 %}
+    {% include 'pages/v1' %}
+{% elseif craft.app.request.getParam('v') == 2 %}
+    {% include 'pages/v2' %}
+{% elseif craft.app.request.getParam('v') == 3 %}
+    {% include 'pages/v3' %}
+{% else %}
+    Need to append ?v=1 to url
+{% endif %}
+
+</body>
+</html>

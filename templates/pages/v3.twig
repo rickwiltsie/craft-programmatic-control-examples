@@ -1,0 +1,28 @@
+<div>
+    <div class="w-3/4 mx-auto py-6">
+        <h1 class="text-6xl">{{ entry.title }}</h1>
+        {{ entry.description }}
+        <p>Source: <a href="{{ entry.pageLink.url }}">{{ entry.pageLink.url }}</a></p>
+        <a class="rounded-full mb-6 p-6 text-xl bg-gray-200 inline-block" href="{{ entry.ctaLink.url }}">Buy {{ entry.title }}</a>
+    </div>
+</div>
+
+{% for pageContent in entry.pageContent %}
+<div class="bg-{{ pageContent.backgroundColor }}-50">
+    <div class="w-3/4 mx-auto py-6">
+        {% if pageContent.type == 'headline' %}
+            <h2 class="text-3xl">{{ pageContent.heading }}</h2>
+            {{ pageContent.details }}
+
+        {% elseif pageContent.type == 'copy' %}
+            <h2 class="text-3xl">{{ pageContent.heading }}</h2>
+            {{ pageContent.details }}
+
+        {% elseif pageContent.type == 'gallery' %}
+            <h2 class="text-3xl">{{ pageContent.heading }}</h2>
+            {{ pageContent.details }}
+
+        {% endif %}
+    </div>
+</div>
+{% endfor %}
