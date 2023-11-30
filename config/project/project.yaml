@@ -1,4 +1,4 @@
-dateModified: 1701029154
+dateModified: 1701359491
 email:
   fromEmail: rick@happycog.com
   fromName: Scratchpad
@@ -13,9 +13,6 @@ fs:
     url: 'http://localhost:8080/uploads'
 meta:
   __names__:
-    2f60c488-7cd4-494e-833e-b5f36276424a: 'Page Link' # Page Link
-    5b57cf8d-2075-4a89-834b-4a888db959dd: 'Background Color' # Background Color
-    5f6a8e34-22be-4be8-80a7-21fa975d7522: 'CTA Link' # CTA Link
     8c555c62-b18e-4cac-99be-00e3eae00db9: Heading # Heading
     8c34313e-c444-4f80-aa04-af383705367f: Images # Images
     8d4291d2-d5a9-41ef-a529-15576af702dc: Heading # Heading
@@ -24,16 +21,19 @@ meta:
     9e084d53-a57f-431a-b80f-fb551ccf2bca: images # images
     20e87064-c803-44b5-9b17-4e414bf25581: Scratchpad # Scratchpad
     69de7e1f-792a-4154-9f92-9350c7e4446f: Details # Details
-    86dd28c2-906d-4e40-97cb-1adb6e4a5a9f: 'Background Color' # Background Color
+    971e5769-90d2-40cf-a922-a6dc168fabab: 'Background Color' # Background Color
     1457bdf0-0671-4592-9d70-08c7523a9d82: Pages # Pages
     6386a8b2-aa0b-4fc0-a9ba-12d26e69fcca: Default # Default
     46458d94-5e9b-449e-b35f-86dbe936e8ea: 'Page Content' # Page Content
     91401bc9-eb46-486e-9070-acbb71d337aa: Details # Details
     b59f69d9-bcca-4d1d-8a54-4a840e3ee97c: Common # Common
     b1074c18-534a-487d-b3a2-0093ffb61048: Scratchpad # Scratchpad
+    b79204e0-229f-43c7-8846-8663dc47d422: 'Background Color' # Background Color
     bc9368b5-daf7-4a80-bb1a-a0abf1bf05fd: Heading # Heading
+    c2f65a14-fd1f-44da-b3c5-0edef0a8c4fd: 'CTA Link' # CTA Link
     c39e8c9d-53b0-4ece-a264-7e85f6fea101: Details # Details
-    c101db2b-b993-4213-af14-9f5f662da44b: 'Background Color' # Background Color
+    cf1e6ea3-2ccd-4471-9fa4-61e0fd7a21a0: 'Page Link' # Page Link
+    dc87658f-35c4-4f89-9150-a5aada535b4b: 'Background Color' # Background Color
     f3f87e4d-6752-47b1-b1fb-3bde8a8257f5: Headline # Headline
     f71e94bf-c1a5-4fc3-87d3-68f6c345ccfe: Copy # Copy
 plugins:

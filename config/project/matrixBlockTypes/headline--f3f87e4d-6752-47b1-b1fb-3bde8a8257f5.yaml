@@ -31,13 +31,13 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 86dd28c2-906d-4e40-97cb-1adb6e4a5a9f # Background Color
+            fieldUid: b79204e0-229f-43c7-8846-8663dc47d422 # Background Color
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: dcb7de3e-7a05-4f2c-bac7-9dd07960af77
+            uid: c829c77b-6194-4434-aced-a3e5905d5eec
             userCondition: null
             warning: null
             width: 100
@@ -93,8 +93,8 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\redactor\Field
-  86dd28c2-906d-4e40-97cb-1adb6e4a5a9f: # Background Color
-    columnSuffix: enwajifj
+  b79204e0-229f-43c7-8846-8663dc47d422: # Background Color
+    columnSuffix: bsfscdnu
     contentColumnType: string(5)
     fieldGroup: null
     handle: backgroundColor

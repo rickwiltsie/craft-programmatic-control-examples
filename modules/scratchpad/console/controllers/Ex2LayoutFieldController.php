@@ -60,8 +60,6 @@ class Ex2LayoutFieldController extends Controller
 
         $matrix = Craft::$app->fields->getFieldByHandle($this->field);
 
-        $matrix->setBlockTypes($matrix->blockTypes);
-
         foreach($matrix->blockTypes as $blockType) {
             $fieldLayout = $blockType->fieldLayout;
             $tab = $fieldLayout->tabs[0];

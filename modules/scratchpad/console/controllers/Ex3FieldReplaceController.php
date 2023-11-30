@@ -17,7 +17,6 @@ use craft\db\Query;
 
 class Ex3FieldReplaceController extends Controller
 {
-
     public $baseLinkItConfig = [
         'name' => 'TEMP NAME',
         'handle' => 'tempHandle',
@@ -33,7 +32,7 @@ class Ex3FieldReplaceController extends Controller
         $this->stdout('Process started' . PHP_EOL, Console::FG_GREEN);
 
         // get all URL fields on entries to be replaced
-        $urlFields = Craft::$app->fields->getFieldsByType(Url::class);
+        $urlFields = Craft::$app->fields->getFieldsByType(\craft\fields\Url::class);
 
         foreach($urlFields as $urlField) {
 

@@ -43,13 +43,13 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: c101db2b-b993-4213-af14-9f5f662da44b # Background Color
+            fieldUid: 971e5769-90d2-40cf-a922-a6dc168fabab # Background Color
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ed72d7b3-28ed-4879-ac27-06e4c7af5a1a
+            uid: ebd1f749-2ee1-4318-9c35-3fd80373a1c3
             userCondition: null
             warning: null
             width: 100
@@ -125,36 +125,8 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  c39e8c9d-53b0-4ece-a264-7e85f6fea101: # Details
-    columnSuffix: fgmfhnch
-    contentColumnType: text
-    fieldGroup: null
-    handle: details
-    instructions: null
-    name: Details
-    searchable: false
-    settings:
-      availableTransforms: ''
-      availableVolumes: ''
-      columnType: text
-      configSelectionMode: choose
-      defaultTransform: ''
-      manualConfig: ''
-      purifierConfig: null
-      purifyHtml: true
-      redactorConfig: null
-      removeEmptyTags: false
-      removeInlineStyles: false
-      removeNbsp: false
-      showHtmlButtonForNonAdmins: false
-      showUnpermittedFiles: false
-      showUnpermittedVolumes: false
-      uiMode: enlarged
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\redactor\Field
-  c101db2b-b993-4213-af14-9f5f662da44b: # Background Color
-    columnSuffix: oxhmmgta
+  971e5769-90d2-40cf-a922-a6dc168fabab: # Background Color
+    columnSuffix: twohglye
     contentColumnType: string(5)
     fieldGroup: null
     handle: backgroundColor
@@ -200,6 +172,34 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Dropdown
+  c39e8c9d-53b0-4ece-a264-7e85f6fea101: # Details
+    columnSuffix: fgmfhnch
+    contentColumnType: text
+    fieldGroup: null
+    handle: details
+    instructions: null
+    name: Details
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
 handle: gallery
 name: Gallery
 sortOrder: 2

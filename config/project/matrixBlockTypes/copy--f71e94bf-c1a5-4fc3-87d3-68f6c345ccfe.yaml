@@ -31,13 +31,13 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 5b57cf8d-2075-4a89-834b-4a888db959dd # Background Color
+            fieldUid: dc87658f-35c4-4f89-9150-a5aada535b4b # Background Color
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a03337ce-8c3a-4087-9b8d-a064b35a514c
+            uid: fd2738a6-af87-4d7a-b5fd-596c29a708ac
             userCondition: null
             warning: null
             width: 100
@@ -45,53 +45,6 @@ fieldLayouts:
         uid: 7431f890-8342-455f-b058-b911e1222411
         userCondition: null
 fields:
-  5b57cf8d-2075-4a89-834b-4a888db959dd: # Background Color
-    columnSuffix: tmjiznkk
-    contentColumnType: string(5)
-    fieldGroup: null
-    handle: backgroundColor
-    instructions: 'This color will cover the full background of the block.'
-    name: 'Background Color'
-    searchable: false
-    settings:
-      columnType: null
-      options:
-        -
-          __assoc__:
-            -
-              - label
-              - Red
-            -
-              - value
-              - red
-            -
-              - default
-              - ''
-        -
-          __assoc__:
-            -
-              - label
-              - Green
-            -
-              - value
-              - green
-            -
-              - default
-              - ''
-        -
-          __assoc__:
-            -
-              - label
-              - Blue
-            -
-              - value
-              - blue
-            -
-              - default
-              - ''
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\Dropdown
   91401bc9-eb46-486e-9070-acbb71d337aa: # Details
     columnSuffix: aqhnpfpn
     contentColumnType: text
@@ -140,6 +93,53 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
+  dc87658f-35c4-4f89-9150-a5aada535b4b: # Background Color
+    columnSuffix: sqmyboxx
+    contentColumnType: string(5)
+    fieldGroup: null
+    handle: backgroundColor
+    instructions: 'This color will cover the full background of the block.'
+    name: 'Background Color'
+    searchable: false
+    settings:
+      columnType: null
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Red
+            -
+              - value
+              - red
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Green
+            -
+              - value
+              - green
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Blue
+            -
+              - value
+              - blue
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
 handle: copy
 name: Copy
 sortOrder: 1
